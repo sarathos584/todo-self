@@ -1,0 +1,10 @@
+.goal-list li {
+    list-style: none;
+    border: 1px solid gray;
+    padding: 1rem;
+    margin: .6rem 0rem;
+}
+.goal-list .active {
+    background: purple;
+    color: white;
+}
