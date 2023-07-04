@@ -9,12 +9,11 @@ function GoalList(props) {
     }
     event.target.className = "active";
   };
-
   return (
     <ul className="goal-list">
       {goals.map((goal) => {
         return (
-          <li key={goal.id} onClick={onClickHandler}>
+          <li key={goal.id} id={goal.id} onClick={onClickHandler}>
             {goal.text}
           </li>
         );

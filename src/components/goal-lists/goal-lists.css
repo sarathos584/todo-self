@@ -10,3 +10,15 @@
     background: purple;
     color: white;
 }
+button {
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    background: white;
+    cursor: pointer;
+    
+}
+.edit{
+    margin-left:5rem ;
+    margin-right: .5rem;
+}
